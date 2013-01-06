@@ -57,7 +57,7 @@ class ConnectAssets
       if shortRoute.match EXPLICIT_PATH
         unless shortRoute.match REMOTE_PATH
           if shortRoute[0] is '/' then shortRoute = shortRoute[1..]
-      else
+      else if rootDir
         shortRoute = rootDir + '/' + shortRoute
       if ext and shortRoute.indexOf(ext, shortRoute.length - ext.length) is -1
         shortRoute += ext
