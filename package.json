@@ -13,7 +13,7 @@
   },
   "main": "lib/assets.js",
   "dependencies": {
-    "connect-file-cache": "0.2.4",
+    "connect-file-cache": "git://github.com/yourcelf/connect-file-cache.git",
     "mime": "1.2.2",
     "snockets": "git://github.com/toots/snockets.git",
     "underscore": "1.1.7"
